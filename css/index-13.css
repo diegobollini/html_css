@@ -1,0 +1,55 @@
+/*
+👨🏻‍💻 Curso Básico de HTML y CSS 13 -Menu Horizontal y Vertical-
+*/
+
+* {
+    box-sizing: border-box;
+    margin-top: 0px;
+}
+
+img {
+    float: left;
+    width: 70%;
+    border: 5px solid;
+}
+
+
+.menuH {
+    overflow: hidden;
+    border: 5px seagreen double;
+}
+
+.menuH a{
+    background-color: black;
+    color: blanchedalmond;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.menuH a:hover {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.menuV {
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    border: 5px seagreen solid;
+}
+
+.menuV a{
+    background-color: black;
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menuV a:hover {
+    background-color: blanchedalmond;
+    color: black;
+}

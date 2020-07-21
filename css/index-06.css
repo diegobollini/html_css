@@ -1,0 +1,46 @@
+/*
+👨🏻‍💻 Curso Básico de HTML y CSS 06 -Las cajas flotantes-
+Reglas de estilo para el archivo index-6.html
+*/
+body {
+    color: lightyellow;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+
+div {
+/*    background-color: midnightblue; */
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+#cajaUno {
+    background-color: red;
+    /*float: left;*/
+    clear: both; /*Limpia elementos, en este caso de ambos lados*/
+    width: 100%;
+}
+
+#cajaDos {
+    background-color: green;
+    float: right;
+}
+
+#cajaTres {
+    background-color: blue;
+    float: left;
+}
+
+#cajaCuatro {
+    background-color: coral;
+    /*float: right;*/
+    clear: both;
+    width: 100%;
+}

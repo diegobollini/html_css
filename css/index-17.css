@@ -1,0 +1,36 @@
+/*
+👨🏻‍💻 Curso Básico de HTML y CSS 16 -Degradados-
+*/
+
+body {
+    background-image: linear-gradient(to right, rgb(98, 114, 98), green);
+    /*background-image: radial-gradient();*/
+}
+
+.p1 {
+    background-image: linear-gradient(to left, rgb(8, 8, 110), rgb(53, 53, 151), rgb(200, 200, 233));
+}
+.p2 {
+    background-image: radial-gradient(orange 60%, white);
+}
+
+.p3 {
+    background-image: linear-gradient(to right, red, orange, yellow, green);
+
+}
+
+header {
+    border: solid black 1px;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, green, white);
+}
+
+p {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}

@@ -1,0 +1,38 @@
+/*
+👨🏻‍💻 Curso Básico de HTML y CSS 15 -Vídeo Background-
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header, footer {
+    background-color: rgb(210, 243, 210);
+    padding: 20px;
+    border: dashed;
+    opacity: 0.7;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+#videoBack {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+}

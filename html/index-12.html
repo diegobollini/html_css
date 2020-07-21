@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica con audio y video</title>
+    <link rel="stylesheet" href="../css/index-12.css">
+</head>
+<body>
+    <header>
+        <h1>Multimedia: audio y video</h1>
+    </header>
+
+    <div class="grid">
+    <!-- Versión test -->
+    <video src="../video/video01.mp4" loop autoplay muted controls></video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/AuU2DxZ9-cU"></iframe>
+
+    <!-- Versión OK -->
+    <video loop autoplay muted controls>
+        <source src="../video/video02.mp4" type="video/mp4">
+        <source src="../video/video01.mp4" type="video/mp4">
+            Tu navegador no estaría reproduciendo este video
+    </video>
+    </div>
+    
+    
+    <audio src="../audio/audio01.mp3" loop autoplay controls></audio>
+    
+    <!--
+    <audio loop autoplay controls>
+        <source src="audio/audio01.mp3" type="audio/mp3">
+    </audio>
+    -->
+
+</body>
+</html>

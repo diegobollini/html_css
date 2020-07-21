@@ -1,0 +1,41 @@
+/*
+👨🏻‍💻 Curso Básico de HTML y CSS 18 -Las Tablas I-
+*/
+
+h1 {
+    text-align: center;
+    color: darkcyan;
+    text-shadow: -1px -2px grey;
+}
+
+table {
+    margin-top: 40px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(236, 210, 210), white);
+    box-shadow: grey 6px 5px 2px;
+}
+
+td, th {
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+caption {
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.separador {
+    margin-top: 20px;
+}

@@ -1,0 +1,39 @@
+/*
+👨🏻‍💻 Curso Básico de HTML y CSS 20 -Fuentes de Texto con Google-
+font-family: 'Mulish', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+
+h1 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+}
+
+h2 {
+    padding-right: 15px;
+}
+
+p {
+    text-align: justify;
+}
+
+.texto1 {
+    font-family: 'Mulish', sans-serif;
+}
+
+.texto2 {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.texto3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto4 {
+    font-family: 'Rubik', sans-serif;
+}

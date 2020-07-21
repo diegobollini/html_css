@@ -1,0 +1,35 @@
+/*
+👨🏻‍💻 Curso Básico de HTML y CSS 14 -Listas-
+*/
+
+* {
+    box-sizing: border-box;
+    /*margin: 0px;*/
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    width: 70%;
+    margin: auto;
+    border: dashed;
+    padding: 10px;
+}
+
+.desordenada {
+    background-color: goldenrod;
+}
+
+.ordenada {
+    background-color: mediumspringgreen;
+}
+
+ol ol {
+    list-style-type: lower-roman;
+}
+
+.definicion {
+    background-color: olive;
+}

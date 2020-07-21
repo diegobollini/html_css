@@ -1,0 +1,67 @@
+/*
+👨🏻‍💻 Curso Básico de HTML y CSS 10 -Imágenes y Efectos-
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.main {
+    height: 1200px;
+
+}
+
+body {
+    background-image: url(img/pexels-photo-66997.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main img {
+    /*width: 50%;*/
+    width: 49%;
+    float: left;
+}
+
+img {
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+img:hover {
+    transform: scale(0.9);
+    border-radius: 30px;
+}
+
+.centro {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /*padding-top: 10px;*/
+    /*border-style: solid;*/
+
+}
+
+.separador1 {
+    height: 10px;
+    clear: both;
+}
+
+.separador2 {
+    width: 2%;
+    /*clear: both;*/
+    float: left;
+    height: 2px;
+}

@@ -1,0 +1,29 @@
+/*
+PRACTICA CSS
+Archivo / hoja de estilos
+*/
+
+p {
+    color: cadetblue;
+}
+
+pre {
+    background-color: rgb(218, 216, 216);
+    color: darkgreen;
+}
+
+h1 {
+    color: rgb(78, 0, 78);
+    border: solid;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;   
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(240, 238, 238);
+}

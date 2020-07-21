@@ -1,0 +1,26 @@
+/*
+👨🏻‍💻 Curso Básico de HTML y CSS 17 -Las Sombras-
+*/
+
+header, footer {
+    background-image: linear-gradient(blue, white);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: -5px 5px 3px black;
+    text-shadow: 2px 2px 4px rgb(5, 5, 109);
+    color: whitesmoke;
+}
+
+div {
+    border: solid 1px black;
+    margin: 100px;
+    background-color: cadetblue;
+    height: 200px;
+    box-shadow: 10px 10px 6px rgb(4, 32, 92);
+}
+
+p {
+    padding: 5%;
+    text-align: justify;
+}

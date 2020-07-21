@@ -1,0 +1,44 @@
+/*
+Hoja de estilo de práctica 09
+index-09.html
+*/
+
+* {
+    box-sizing: border-box;
+    /*border-style: double;*/
+    /*margin: 0px;*/
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+header, footer {
+    background-color: darkgreen;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+section {
+    background-color: tomato;
+    padding: 20px;
+    float: left;
+    width: 50%;
+    border-style: solid;
+    height: 200px;
+    overflow: auto;
+}
+
+article {
+    background-color: yellowgreen;
+    /*padding: 20px;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
+
+footer {
+    clear: both;
+}

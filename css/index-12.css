@@ -1,0 +1,59 @@
+/*
+👨🏻‍💻 Curso Básico de HTML y CSS 12 -Vídeo y Audio-
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/DP140976.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: yellowgreen;
+}
+
+header {
+    background-color: wheat;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+}
+
+video, audio, iframe {
+    /*padding-top: 20px;*/
+    width: 80%;
+    /*margin: auto;*/
+    display: block;
+    
+}
+
+audio {
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+
+/* Esto de acá abajo lo copié*/
+
+.grid{
+    width: 80%;
+    /*margin:auto;*/
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+
+.grid video, iframe{
+    width:90%;
+    margin: auto;
+    border: 3px solid white;
+    transition: all 0.5s ease;
+}
+.grid video:hover,iframe:hover{
+    transform: scale(0.8);   
+    border-radius: 10%;
+}

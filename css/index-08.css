@@ -1,0 +1,28 @@
+/*Template HTML y CSS Ninja
+Margin > Borden > Padding > Content
+selector {declaración}
+selector {propiedad: valor; propiedad: valor}
+h1 {color: coral; background-color: cornsilk;}
+*/
+
+header {
+    background-color: darkkhaki;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    width: 33%;
+    float: left;
+}
+
+footer {
+    background-color: darkkhaki;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}

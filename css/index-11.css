@@ -1,0 +1,45 @@
+/*
+Hoja de estilo para la práctica con Display Grid
+👨🏻‍💻 Curso Básico de HTML y CSS 11 -Display Grid-
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: wheat;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+body {
+    background-image: url(img/pexels-photo-66997.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: yellowgreen;
+}
+
+/* Estilos para el grid
+auto auto --> dos columnas
+auto x 3 --> tres columnas
+*/
+
+.grid {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding-bottom: 30px;
+}
+
+.grid img {
+    width: 100%;
+    border: solid 3px whitesmoke;
+    margin: auto;
+
+}

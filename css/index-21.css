@@ -1,0 +1,54 @@
+/*
+👨🏻‍💻 Curso Básico de HTML y CSS 22 -PseudoClases y Columnas-
+*/
+
+* {
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+*::selection {
+    background-color: yellow
+}
+
+main {
+    background-image: linear-gradient(to bottom, rgb(96, 207, 96), white);
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#title2::before,#title2::after {
+    content: "''";
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#title2 {
+    color: whitesmoke;
+    text-transform: lowercase;
+}
+
+article {
+    margin-top: 40px;
+    font-size: 1.2em; /* em = tamaño estándar del navegador */
+    text-align: justify;
+    column-count: 2;
+    column-gap: 2em;
+    column-rule: indigo 3px solid;
+}
+
+p::first-letter {
+    font-size: 3em;
+    color: forestgreen;
+    
+}
+
+p::first-line {
+    color: rgb(250, 0, 0);
+}
