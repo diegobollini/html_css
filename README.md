@@ -1,5 +1,5 @@
 # Practicando desde cero con HTML y CSS
-[Fuente 01](https://www.youtube.com/playlist?list=PLug2BNqcHKuJvJtVXLHa7hPnc6AtoPjvs)
+[Fuente: 👨🏻‍💻 Curso Básico de HTML y CSS](https://www.youtube.com/playlist?list=PLug2BNqcHKuJvJtVXLHa7hPnc6AtoPjvs)
 
 [Referencias varias](https://www.w3schools.com/)
 
