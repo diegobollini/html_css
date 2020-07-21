@@ -1,5 +1,6 @@
 # Practicando desde cero con HTML y CSS
 [Fuente 01](https://www.youtube.com/playlist?list=PLug2BNqcHKuJvJtVXLHa7hPnc6AtoPjvs)
+
 [Referencias varias](https://www.w3schools.com/)
 
 Porque hay que mantener los pies sobre la tierra (y porque nunca lo había aprendido posta), seguí una serie de videos sobre HTML y CSS _nivel básico_. El resultado parece copiado de Geocities, pero todo el proceso fue re satisfactorio y aprendí un montón. También disfruté usar [code oss](https://github.com/microsoft/vscode).
